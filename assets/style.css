@@ -40,3 +40,27 @@ header nav ul li a {
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.my-bio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.me {
+    text-align: center;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.me h2 {
+    font-style: italic;
+    font-size: 55px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+img {
+    width: 400px;
+    height: 500px;
+}
