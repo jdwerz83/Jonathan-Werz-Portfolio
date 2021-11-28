@@ -2,10 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: var(--third-color);
+}
+:root {
+    --primary-color: #24495E;
+    --secondary-color: #F0F2F4;
+    --third-color:#e6B0AA;
 }
 
 header {
@@ -13,6 +16,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
+    color: var(--primary-color);
+    margin: 40px;
+    
+    border-bottom: var(--primary-color);
+
 }
 
 header h1 {
@@ -51,16 +59,20 @@ header nav ul li a {
 .me {
     text-align: center;
     margin: 3.5%;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.2;
+    color: var(--primary-color);
 }
 
-.me h2 {
+.me h2, .projects h2 {
     font-style: italic;
     font-size: 55px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 img {
     width: 400px;
     height: 500px;
+    align-items: flex-start;
 }
+
